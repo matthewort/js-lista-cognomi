@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: #365577;
+  font-family: tahoma;
+  color: black;
+}
+
+.container {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid black;
+}
+
+.formcontainer {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: khaki;
+}
+
+.subcontainer {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid black;
+}
+
+.buttoncontainer {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: khaki;
+}
+
+.buttoncontainer button {
+  height: 50%;
+  width: 10%;
+  font-size: 20px;
+}
+
+.container2 {
+  height: 65%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border: 2px solid black;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+}
+
+.leftcontainer {
+  height: 35%;
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: lightblue;
+}
+
+.lista_ordinata {
+  display: flex;
+  align-items: flex-start;
+}
+
+.rightcontainer {
+  height: 35%;
+  width: 30%;
+  display: flex;
+  background-color: orange;
+}
+
+.lista_nonordinata {
+  display: flex;
+  align-items: flex-end;
+}
+
+/* .container3 {
+  height: 35%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid black;
+} */

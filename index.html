@@ -3,17 +3,52 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <form action="/action_page.php">
-      <label for="fname">Last name:</label><br>
-      <input type="text" id="fname" name="fname"><br>
+    <div class="container">
+      <div class="formcontainer">
+      <form action="/action_page.php">
+        <label for="fname">Last name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+      </form>
+      </div>
+    </div>
 
-    </form>
+    <div class="subcontainer">
+      <div class="buttoncontainer">
+      <button type="button" name="button">INVIA</button>
+      </div>
+    </div>
 
-    <ul id="stampa">
+    <div class="container2">
+      <div class="leftcontainer">
+        <div class="lista_ordinata">
+        <ul id="stampa">
+        </ul>
+        </div>
+      </div>
 
-    </ul>
+      <div class="rightcontainer">
+        <div class="lista_nonordinata">
+        <ul id="stampa">
+        </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="container3">
+      <div class="rightcontainer">
+        <div class="lista_nonordinata">
+        <ul id="stampa">
+        </ul>
+        </div>
+      </div>
+    </div> -->
+
+
+
+
 
     <script type="text/javascript" src="js/myscript.js">
 

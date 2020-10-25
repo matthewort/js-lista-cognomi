@@ -20,8 +20,9 @@ var testostampato = "";
 
 var i = 0;
 while (i < cognomi.length) {
-  testostampato = testostampato + "<li>" + cognomi[i] + "</li>"
+  testostampato = testostampato + "<li>" + cognomi[i] + " " + "</li>"
   i++
 }
+
 
 document.getElementById("stampa").innerHTML = testostampato;
