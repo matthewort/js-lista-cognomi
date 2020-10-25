@@ -19,16 +19,25 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 
 .formcontainer {
   height: 100%;
-  width: 80%;
+  width: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: khaki;
+}
+
+.formcontainer label {
+  font-size: 20px;
+  text-align: center;
+}
+
+.formcontainer input {
+  height: 25px;
 }
 
 .subcontainer {
@@ -38,21 +47,23 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 
 .buttoncontainer {
   height: 100%;
-  width: 80%;
+  width: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: khaki;
+  border-bottom-right-radius: 70px;
+  border-bottom-left-radius: 70px;
 }
 
 .buttoncontainer button {
   height: 50%;
-  width: 10%;
+  width: 100px;
   font-size: 20px;
 }
 
@@ -63,15 +74,15 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 
 ul {
-  list-style: none;
+list-style: none;
 }
 
 li {
-  display: inline;
+ font-size: 30px;
 }
 
 .leftcontainer {
@@ -81,6 +92,7 @@ li {
   justify-content: space-around;
   align-items: center;
   background-color: lightblue;
+  border-radius: 100px;
 }
 
 .lista_ordinata {
@@ -99,13 +111,3 @@ li {
   display: flex;
   align-items: flex-end;
 }
-
-/* .container3 {
-  height: 35%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border: 2px solid black;
-} */

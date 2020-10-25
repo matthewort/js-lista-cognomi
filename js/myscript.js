@@ -8,21 +8,35 @@
 // solo su questo EX usiamo while e non for (poi dal prox in poi farete come volete )
 
 
-// chiedo il cognome
-var richiesta = prompt("Cognome?");
 
-var cognomi = ["Bianchi", "Rossi", "Duzioni", "Blasano", "Verdi"];
-cognomi.push(richiesta);
-cognomi.sort();
-console.log(cognomi);
+// INPUT BOTTONE
+var bottoneInvia = document.getElementById("invia");
 
-var testostampato = "";
+// EVENTO BOTTONE
+bottoneInvia.addEventListener("click",
+function() {
 
-var i = 0;
-while (i < cognomi.length) {
-  testostampato = testostampato + "<li>" + cognomi[i] + " " + "</li>"
-  i++
-}
+  // ARRAY COGNOMI
+  var cognomi = ["Bianchi", "Rossi", "Duzioni", "Blasano", "Verdi"];
 
+  // VAR RICHIESTA COGNOME
+  var richiestaInput = document.getElementById("input");
 
-document.getElementById("stampa").innerHTML = testostampato;
+  // PUSH PER L'INPUT
+  cognomi.push(richiestaInput.value);
+
+  // ORDINE ALFABETICO
+  cognomi.sort();
+
+  // OUTPUT
+  var lista = "";
+  var i = 0;
+  while (i < cognomi.length) {
+    lista = lista + "<li>" + cognomi[i] + "</li>";
+    i++;
+  }
+
+  // VARIABILE LISTA
+  document.getElementById("lista").innerHTML = lista;
+
+} );
